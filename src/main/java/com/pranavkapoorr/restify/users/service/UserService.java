@@ -1,13 +1,10 @@
 package com.pranavkapoorr.restify.users.service;
 
 import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import com.pranavkapoorr.restify.users.model.User;
-import com.pranavkapoorr.restify.users.repository.UserDao;
-import com.pranavkapoorr.restify.users.repository.UserRepository;
+import com.pranavkapoorr.restify.users.repository.*;;
 
 @Service
 public class UserService implements UserDao{

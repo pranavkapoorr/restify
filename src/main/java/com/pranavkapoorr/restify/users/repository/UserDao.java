@@ -1,9 +1,7 @@
 package com.pranavkapoorr.restify.users.repository;
 
 import java.util.List;
-
 import org.springframework.stereotype.Component;
-
 import com.pranavkapoorr.restify.users.model.User;
 
 @Component
